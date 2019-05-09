@@ -25,7 +25,7 @@ Json工具类, 包含Gson、FastJson、Jackson三个库的工具类
 ```
 
 ## Gson使用示例：
-```text
+```java
      //JSON反序列化
       Test test = GsonUtil.from(string, Test.class);
       
